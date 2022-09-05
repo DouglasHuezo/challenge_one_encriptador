@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Encriptador</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header>
+		<h1><img src="imagenes/Logo.png"></h1>
+	</header>
+		<main>
+			<section>
+				<textarea class="input-texto" cols="90"	rows="20" placeholder="Ingrese el texto aqui"></textarea>
+				<div class="advertencia"><img src="imagenes/Vector.png"><p>Solo letras minúsculas y sin acentos</p></div>
+				<div class="botones">
+						<button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+						<button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+					</div>
+			</section>
+
+			<section class="respuesta">
+				<textarea class="mensaje" cols="30" rows="8" placeholder="No se ha encontrado ningún mensaje"></textarea>
+				<button class="copiar" onclick="copiar()">Copiar</button>
+			</section>
+		</main>
+		<script src="script.js"></script>
+
+	<footer>
+		<a href="https://github.com/DouglasHuezo"><img src="imagenes/github.png" class="social"></a>
+		<a href="https://www.linkedin.com/in/douglas-huezo-604950249/"><img src="imagenes/linkedin.png" class="social"></a> 
+		<br>
+	 	Desarrollado por Douglas Huezo
+	</footer>
+</body>
+
+</html>
